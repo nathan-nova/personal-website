@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nathaniel Edzeame | Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #242627;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .profile-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 2rem;
+      text-align: center;
+      max-width: 350px;
+      margin: auto;
+    }
+    .profile-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    .profile-card h2 {
+      margin: 0.5rem 0;
+      color: #111112;
+    }
+    .profile-card p {
+      margin: 0.3rem 0;
+    }
+    h2.section-title {
+      color: #343739;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+      margin-top: 2rem;
+    }
+    ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+    a {
+      color: #212224;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      background: #eee;
+      font-size: 0.9rem;
+    }
+
+    /* Two Photo Showcase */
+    .photo-showcase {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .photo-showcase img {
+      width: 45%;
+      max-width: 400px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .photo-showcase img:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      .photo-showcase img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Profile</h1>
+    <p>Computer Engineering Student | Electronics & Embedded Systems Enthusiast</p>
+  </header>
+
+  <div class="container">
+    <!-- Profile Card -->
+    <div class="profile-card">
+      <img src="images/profile.jpg" alt="Nathaniel's Profile Picture">
+      <h2>Nathaniel Edzeame</h2>
+      <p>📍 Kumasi, Ghana</p>
+      <p>✉️ <a href="mailto:ppnathaniel99@gmail.com">ppnathaniel99@gmail.com</a></p>
+      <p>
+        <a href="https://linkedin.com/in/nathaniel-edzeame" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" 
+               alt="LinkedIn" width="24" 
+               style="vertical-align:middle; margin-right:8px; filter: invert(23%) sepia(96%) saturate(7482%) hue-rotate(203deg) brightness(95%) contrast(104%);">
+          LinkedIn
+        </a>
+      </p>
+    </div>
+
+    <!-- About Me -->
+    <h2 class="section-title">About Me</h2>
+    <p>
+      Hi! I'm Nathaniel, a Computer Engineering student passionate about electronics, 
+      embedded systems, and microcontroller projects. I enjoy building creative solutions 
+      with hardware and coding, and I'm currently working on capacitor-based timing circuits, 
+      ESP32 projects, and simulations in Proteus.  
+      On the creative side, I’ve undertaken a 2-week photography course and I’m exploring 
+      cloud computing to broaden my skill set.
+    </p>
+
+    <!-- Projects -->
+    <h2 class="section-title">Projects</h2>
+    <ul>
+      <li><a href="https://github.com/nathan-nova/esp32-back-emf-detector" target="_blank">ESP32 Capacitor Lab Project</a></li>
+      <li>Proteus RC Circuit Simulation</li>
+      <li>Mini UPS with Capacitor & LED</li>
+    </ul>
+
+    <!-- Skills -->
+    <h2 class="section-title">Skills</h2>
+    <ul>
+      <li>Embedded Systems (ESP32, Arduino)</li>
+      <li>Electronics Circuit Design</li>
+      <li>Proteus Simulation</li>
+      <li>HTML, CSS, and Basic Web Development</li>
+      <li>Photography (Creative Projects)</li>
+      <li>Cloud Computing (Currently Learning)</li>
+    </ul>
+
+    <!-- Photography Showcase -->
+    <h2 class="section-title">Photography Showcase</h2>
+    <div class="photo-showcase">
+      <img src="images/photo1.jpg" alt="Photography Showcase 1">
+      <img src="images/photo2.jpg" alt="Photography Showcase 2">
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Nathaniel Edzeame | Personal Profile
+  </footer>
+</body>
+</html>
